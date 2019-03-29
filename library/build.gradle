@@ -2,7 +2,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "28.0.0"
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 28
@@ -48,7 +47,7 @@ publish {
     userOrg = 'twsxtd'
     groupId = 'me.weishu'
     artifactId = 'free_reflection'
-    publishVersion = '1.2.0'
+    publishVersion = '2.0.0'
     desc = 'Use Relection above Android P without any restriction'
     website = 'https://github.com/tiann/FreeRelfection'
 }
